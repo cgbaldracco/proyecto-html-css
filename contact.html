@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Contact Albert Whisker!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>The Feline Mastermind: The Autobiography of Albert Whiskers</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferences.html">Preferences</a></li>
+                <li><a href="audiovisuals.html">TV</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Write your name here" required minlength="3">
+            <label for="last-name">Last Name: </label>
+            <input type="text" id="last-name" name="last-name" placeholder="Write your last name here" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Write your email here" required>
+            <label for="country">País: </label>
+            <select name="country" id="country">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuador">Ecuaador</option>
+            </select>
+            <label for="comment">Comment: </label>
+            <textarea name="comment" id="comment" placeholder="Leave us a comment!"></textarea>
+
+            <label for="motive">Contact motive: </label>
+            <input type="checkbox" id="motive" name="motive"><i>I'm a fan!</i>
+            <input type="checkbox" id="motive" name="motive"><i>I want a shirt!</i>
+            <input type="checkbox" id="motive" name="motive"><i>I want to work with you!</i>
+            <input type="checkbox" id="motive" name="motive"><i>Make a complaint...</i>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>A. Whiskers & Co. &copy; 2023</p>
+    </footer>
+</body>
+</html>
